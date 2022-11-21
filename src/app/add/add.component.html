@@ -1,0 +1,34 @@
+<form>
+  <div class="mb-3">
+    <label for="nom" class="form-label">Nom</label>
+    <input type="text" class="form-control"  [(ngModel)]="employe.nom" name="nom" id="nom" aria-describedby="emailHelp">
+  </div>
+  <div class="mb-3">
+    <label for="prenom" class="form-label">Prenom</label>
+    <input type="text" class="form-control"  [(ngModel)]="employe.prenom" name="prenom" id="prenom" >
+  </div>
+  <div class="mb-3">
+    <label for="salaire" class="form-label">Salaire</label>
+    <input type="number" class="form-control"  [(ngModel)]="employe.salaire" name="salire"  id="salaire">
+  </div>
+  <button type="submit"  (click)="addE()" class="btn btn-primary">Submit</button>
+</form>
+<!--<div class="container">-->
+<!--  <div>-->
+<!--    <div class="form-group">-->
+<!--      <label for="id">ID</label>-->
+<!--      <input type="number" class="form-control" [(ngModel)]="employe.id" name="id" id="id" aria-describedby="emailHelpId" placeholder="ID">-->
+<!--    </div>-->
+<!--    <div class="form-group">-->
+<!--      <label for="name">name</label>-->
+<!--      <input type="text" class="form-control" [(ngModel)]="employe.name" name="name" id="name" aria-describedby="emailHelpId" placeholder="Name">-->
+<!--    </div>-->
+<!--    <div class="form-group">-->
+<!--      <label for="salary">salary</label>-->
+<!--      <input type="number" class="form-control" [(ngModel)]="employe.salary" name="salary" id="salary" aria-describedby="emailHelpId" placeholder="SALARY">-->
+<!--    </div>-->
+<!--    <div class="form-group">-->
+<!--      <button class="form-control btn btn-primary" (click)="addE()">Add</button>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</div>-->

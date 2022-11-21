@@ -1,0 +1,34 @@
+{
+  "employee": [
+    {
+      "id": 1,
+      "nom": "MOSTARE",
+      "prenom": "Asma",
+      "salaire": 4253
+    },
+    {
+      "id": 3,
+      "nom": "MOSTARE",
+      "prenom": "Asma",
+      "salaire": 48
+    },
+    {
+      "id": 2,
+      "nom": "jh",
+      "prenom": "kl",
+      "salaire": 5820750
+    },
+    {
+      "id": 4,
+      "nom": "kjnoöl",
+      "prenom": ".kjniöin",
+      "salaire": 3456789
+    },
+    {
+      "id": 5,
+      "nom": "kermaoui",
+      "prenom": "moncef",
+      "salaire": 7859834390
+    }
+  ]
+}

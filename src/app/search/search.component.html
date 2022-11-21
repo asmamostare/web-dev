@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="row">
+        <div class="form-group">
+          <input type="number" class="form-control" [(ngModel)]="employe.id" name="id" id="" aria-describedby="emailHelpId" placeholder="">
+          <button class="btn btn-primary" (click)="search()">Search</button>
+        </div>
+    </div>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>NAME</th>
+            <th>SALARY</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let e of employes">
+            <td scope="row">{{e.id}}</td>
+            <td>{{e.nom}}</td>
+            <td>{{e.prenom}}</td>
+            <td>{{e.salaire}}</td>
+        </tr>
+    </tbody>
+</table>

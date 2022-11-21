@@ -1,0 +1,24 @@
+<div class="container">
+    <div *ngFor="let e of employes">
+        <div *ngIf="e.id == myId.id">
+            <div class="form-group">
+                <label for="id">ID</label>
+                <input type="number" class="form-control" [value]="e.id" [(ngModel)]="e.id" name="id" id="id"
+                    aria-describedby="emailHelpId" placeholder="ID">
+            </div>
+            <div class="form-group">
+                <label for="name">name</label>
+                <input type="text" class="form-control" [value]="e.nom" [(ngModel)]="e.nom" name="name" id="name"
+                    aria-describedby="emailHelpId" placeholder="Name">
+            </div>
+            <div class="form-group">
+                <label for="salary">salary</label>
+                <input type="number" class="form-control" [value]="e.salaire" [(ngModel)]="e.salaire" name="salary"
+                    id="salary" aria-describedby="emailHelpId" placeholder="SALARY">
+            </div>
+            <div class="form-group">
+                <button class="form-control btn btn-warning" [value]="" (click)="editE(e)">Edit</button>
+            </div>
+        </div>
+    </div>
+</div>
